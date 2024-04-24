@@ -7,7 +7,8 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
 - [Vite](https://vitejs.dev)
 - [React 18](https://react.dev)
 - [TypeScript](https://www.typescriptlang.org)
-- [SWC](https://swc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
 - [Tailwind CSS](https://tailwindcss.com)
 - [Jest](https://jestjs.io)
 - [Vitest](https://vitest.dev)
