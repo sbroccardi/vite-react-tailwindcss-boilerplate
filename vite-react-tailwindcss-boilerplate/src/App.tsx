@@ -14,10 +14,10 @@ function App() {
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+          <img src={reactLogo} className="logo" alt="React logo" />
         </a>
         <a href="https://tailwindcss.com" target="_blank" rel="noreferrer">
-          <img src={tailwindLogo} className="logo tailwind" alt="Tailwind logo" />
+          <img src={tailwindLogo} className="logo" alt="Tailwind logo" />
         </a>
       </div>
       <h1 className='text-3xl font-bold underline'>Vite + React + TailwindCSS</h1>

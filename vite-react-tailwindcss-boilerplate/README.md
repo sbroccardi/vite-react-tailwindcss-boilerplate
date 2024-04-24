@@ -12,9 +12,9 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
 	* [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react)
 	* [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
 	* [typescript-eslint](https://typescript-eslint.io)
-
-- [Tailwind CSS](https://tailwindcss.com)
 	* [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+- [Tailwind CSS](https://tailwindcss.com)
+
 - [Jest](https://jestjs.io)
 - [Vitest](https://vitest.dev)
 - [Prettier](https://prettier.io)

@@ -12,9 +12,6 @@
 .logo:hover {
   @apply shadow-md;
 }
-.logo.react:hover {
-  @apply shadow-md;
-}
 
 @keyframes logo-spin {
   from {
