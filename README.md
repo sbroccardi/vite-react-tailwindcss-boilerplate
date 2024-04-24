@@ -8,14 +8,14 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
 - [React 18](https://react.dev)
 - [TypeScript](https://www.typescriptlang.org)
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-- [Tailwind CSS](https://tailwindcss.com)
-- [Jest](https://jestjs.io)
-- [Vitest](https://vitest.dev)
 - [ESLint](https://eslint.org)
-	* [typescript-eslint](https://typescript-eslint.io)
 	* [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react)
 	* [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks)
+	* [typescript-eslint](https://typescript-eslint.io)
+
+- [Tailwind CSS](https://tailwindcss.com)
 	* [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
+- [Jest](https://jestjs.io)
+- [Vitest](https://vitest.dev)
 - [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky/)
