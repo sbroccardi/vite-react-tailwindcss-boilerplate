@@ -1,5 +1,5 @@
 # ~/.config/husky/init.sh
-. ~/.zshrc
+# . ~/.zshrc
 #export NVM_DIR=~/.nvm
 #source $(brew --prefix nvm)/nvm.sh # This loads nvm
 #export PATH=$PATH:~/.yarn/bin # This add Yarn
