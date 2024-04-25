@@ -1,7 +1,7 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import tailwindLogo from "./assets/tailwind.svg";
+import reactLogo from "./shared/assets/react.svg";
+import viteLogo from "./shared/assets/vite.svg";
+import tailwindLogo from "./shared/assets/tailwind.svg";
 import "./App.css";
 
 function App() {
