@@ -1,6 +1,6 @@
-# ReactTS 18 with Tailwind CSS and Vite
+# ReactTS 18 with Tailwind CSS, ESLint, Prettier and Vite
 
-This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.org/) + [Tailwind CSS](https://tailwindcss.com) boilerplate to be built with [Vite](https://vitejs.dev). It also includes [ESLint 8](https://eslint.org), [Vitest](https://vitest.dev), [Husky](https://typicode.github.io/husk) and a pre-commit hook that runs `yarn format`.
+This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.org/) + [Tailwind CSS](https://tailwindcss.com) boilerplate to be built with [Vite](https://vitejs.dev). It also includes [ESLint 8](https://eslint.org), [Vitest](https://vitest.dev), [Husky](https://typicode.github.io/husk) and a pre-commit hook that runs `prettier --write` and `eslint --fix`.
 
 ## What's inside?
 
@@ -21,7 +21,7 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
 
 ## Husky
 
-[Node Version Managers and GUIs](https://typicode.github.io/husky/how-to.html#node-version-managers-and-guis)
+Workaround for [Node Version Managers and GUIs](https://typicode.github.io/husky/how-to.html#node-version-managers-and-guis)
 
 ```sh
 # ~/.config/husky/init.sh
@@ -34,7 +34,7 @@ export NVM_DIR=~/.nvm
 #exit 1 # test hook without committing
 ```
 
-## Using ESLint 9+
+## ESLint version 9+
 
 - [Tracking: Flat Config support](https://github.com/eslint/eslint/issues/18093)
 
