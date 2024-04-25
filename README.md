@@ -19,6 +19,66 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
 - [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky/)
 
+## Getting Started
+
+### Install
+
+Create the project.
+
+```bash
+npx degit sbroccardi/ari-react-boilerplate my-app
+```
+
+Access the project directory.
+
+```bash
+cd my-app
+```
+
+Install dependencies.
+
+```bash
+yarn
+```
+
+Serve with hot reload at <http://localhost:{PORT}>.
+
+```bash
+yarn dev
+```
+
+### Prettier
+
+```bash
+yarn format
+```
+
+### Lint
+
+Run ESLint
+
+```bash
+yarn lint
+```
+
+Run ESLint and fix
+
+```bash
+yarn lint:fix
+```
+
+### Build
+
+```bash
+yarn build
+```
+
+### Test
+
+```bash
+yarn test
+```
+
 ## Husky
 
 Workaround for [Node Version Managers and GUIs](https://typicode.github.io/husky/how-to.html#node-version-managers-and-guis)
