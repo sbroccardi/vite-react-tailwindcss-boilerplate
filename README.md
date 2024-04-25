@@ -19,6 +19,21 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
 - [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky/)
 
+## Husky
+
+[Node Version Managers and GUIs](https://typicode.github.io/husky/how-to.html#node-version-managers-and-guis)
+
+```sh
+# ~/.config/husky/init.sh
+
+export NVM_DIR=~/.nvm
+
+#source $(brew --prefix nvm)/nvm.sh # This loads nvm with brew.sh
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # or this loads nvm
+
+#exit 1 # test hook without committing
+```
+
 ## Using ESLint 9+
 
 - [Tracking: Flat Config support](https://github.com/eslint/eslint/issues/18093)
