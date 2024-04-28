@@ -15,9 +15,13 @@ This is a [React](https://react.dev) + [TypeScript](https://www.typescriptlang.o
   - [typescript-eslint](https://typescript-eslint.io)
   - [eslint-plugin-tailwindcss](https://github.com/francoismassart/eslint-plugin-tailwindcss)
 - [Tailwind CSS](https://tailwindcss.com)
+- [Headless UI](https://github.com/tailwindlabs/headlessui)
+- [heroicons](https://heroicons.com/)
 - [Vitest](https://vitest.dev)
 - [Prettier](https://prettier.io)
 - [Husky](https://typicode.github.io/husky/)
+
+---
 
 ## Getting Started
 
@@ -47,13 +51,15 @@ Serve with hot reload at <http://localhost:{PORT}>.
 yarn dev
 ```
 
-### Prettier
+### Other Commands
+
+#### Prettier
 
 ```bash
 yarn format
 ```
 
-### Lint
+#### Lint
 
 Run ESLint
 
@@ -67,17 +73,24 @@ Run ESLint and fix
 yarn lint:fix
 ```
 
-### Build
+#### Build
 
 ```bash
 yarn build
 ```
 
-### Test
+#### Test
 
 ```bash
 yarn test
 ```
+
+---
+
+## Recommended VS Code extensions
+
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 ## Husky
 

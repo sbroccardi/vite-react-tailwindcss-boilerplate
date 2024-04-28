@@ -2,39 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  @apply flex items-center justify-center min-w-[320px] min-h-screen m-0;
-}
-
-a {
-  @apply font-medium text-blue-600 no-underline;
-}
-a:hover {
-  @apply text-blue-500;
-}
-
-h1 {
-  @apply text-7xl leading-tight;
-}
-
-button {
-  @apply rounded-lg border border-transparent px-3 py-2 text-base font-medium leading-6 text-white bg-gray-900 focus:outline-none transition duration-150 ease-in-out;
-}
-button:hover {
-  @apply border-blue-600;
-}
-button:focus {
-  @apply focus:outline-none focus:ring;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    @apply text-gray-800 bg-white;
+@layer base {
+  html {
+    @apply h-full bg-gray-100;
   }
-  a:hover {
-    @apply text-blue-400;
+
+  body {
+    @apply h-full;
   }
-  button {
-    @apply text-gray-800 bg-gray-100;
+
+  @font-face {
+    font-family: "Inter";
+    src:
+      local("Inter-VariableFont_slnt_wght"),
+      url("./shared/assets/fonts/Inter-VariableFont_slnt_wght.ttf")
+        format("truetype");
+  }
+
+  @font-face {
+    font-family: "Monserrat";
+    src:
+      local("Montserrat-VariableFont_wght"),
+      url("./shared/assets/fonts/Montserrat-VariableFont_wght.ttf")
+        format("truetype");
   }
 }
